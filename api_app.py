@@ -5,6 +5,11 @@ import pandas as pd
 import os
 import boto3
 
+import category_encoders as ce
+
+ce.TargetEncoder.min_group_lumping_ = {}
+ce.OrdinalEncoder.index_start = 0
+
 # Initialisation de l'API
 app = FastAPI()
 

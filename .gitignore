@@ -1,0 +1,35 @@
+# Modeles volumineux (stockes sur AWS S3)
+*.joblib
+*.pkl
+*.pth
+*.h5
+
+# Caches et fichiers temporaires Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environnements virtuels locaux
+.venv/
+venv/
+env/
+
+# Fichiers de configuration et secrets
+.env
+*.pem
+
+# Fichiers d'etat et cache Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Donnees brutes volumineuses
+data/
+*.csv
+
+# Journaux d'execution locaux
+logs/
+*.log

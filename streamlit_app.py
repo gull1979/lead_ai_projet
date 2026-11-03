@@ -4,6 +4,7 @@ import requests
 # Configuration de la page Streamlit pour un affichage large et professionnel
 st.set_page_config(layout="wide", page_title="AgriTech Yield Predictor")
 
+
 col_gauche, col_droite = st.columns([1, 2], gap="large")
 with col_gauche:
     st.title("🌱 Assistant de Prédiction de Rendement Agricole")
